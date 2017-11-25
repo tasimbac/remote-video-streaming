@@ -6,7 +6,7 @@ import numpy as np
 import struct
 
 #ip and port address of machine hosting the server.py application
-MY_IP = '192.168.0.70'
+MY_IP = '192.168.8.100'
 MY_PORT = 8081
 #socket where server application will be listening to as it waits for client app to make connection request
 s=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
