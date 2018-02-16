@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo ystemctl start httpd &&
+sudo systemctl start httpd &&
 sudo update-rc.d httpd start
